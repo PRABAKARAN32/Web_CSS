@@ -1,0 +1,22 @@
+
+div{
+    width: 30vh;
+    height: 30vh;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+.left{
+    float: left;
+    margin-right: 20px;
+}
+.right{
+    float: right;
+    margin-left: 20px;
+}
+
+main{
+    background-color: bisque;
+    overflow: auto;
+}

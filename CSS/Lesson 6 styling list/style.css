@@ -1,0 +1,23 @@
+ol{
+    /* list-style-type: circle; */
+}
+
+ul{
+    line-height: 1.6;
+    list-style-type: square;
+    /* list-style-image: url('thala.jpg'); */
+    list-style-position: outside;
+    
+}
+
+ul li:nth-child(2){
+    color: red;
+
+}
+
+ul ::marker{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    
+    content: "Only 10rs";
+}

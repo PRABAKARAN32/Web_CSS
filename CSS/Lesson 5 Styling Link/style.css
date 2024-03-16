@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+
+a :active{
+    color: blueviolet;
+}
+
+
+a:hover ,a:focus{
+    color: aqua;
+
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/*Beging Reset*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+
+/*End Beging Reset*/
+
+
+/*Utility Class*/
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.offscreen{
+    position: absolute;
+    left: -10000px;
+}
+/*End Utility Class*/
+
+.container{
+    background-color: papayawhip;
+    background-image: url("./img/pexels-eberhard-grossgasteiger-443446.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center center;
+}
+
+body{
+        font-family: "Nunito", sans-serif;
+        min-height: 100vh;
+        
+        
+}
+
+.hero{
+
+    border: 2px solid #000;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    /* background-color: hsla(0, 0%, 96%, 0.945); */
+}
+
+.h1{
+    font-size: 370%;
+    color: whitesmoke;
+    text-shadow: 4px 2px 5px #000;
+    background-color: hsla(0, 0%, 0%, 0.025);
+    padding: 10px;
+}
+
+.my-profile-picture{
+width: 35%;
+}
+
+.my-profile-picture img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double #333;
+    border-radius: 50%;
+
+}
+
+/* .example{
+    margin-top: 1rem;
+    border: 2px solid black;
+    font-size: 1rem;
+    padding-left: 20px;
+
+} */
+
+/* .example img{
+    width: 25%;
+    height: auto;
+} */
+

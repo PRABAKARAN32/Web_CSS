@@ -1,0 +1,163 @@
+/*Rest CSS*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/*VARIABLES*/
+:root{
+    /*COLOR*/
+    --BACKGROUND-COLOR-Main:white;
+    --BACKGROUND-COLOR-Head:black;
+    --BACKGROUND-COLOR-Nav:#333;
+    --HEIGHT:2rem;
+    --WIDTH:auto;
+    --MARGIN-TOP:0.5rem;
+
+    /*SQUARE DESIGN*/
+    --SQUARE-BG-COLOR:papayawhip;
+    --SQUARE-SIZE:max(150px,20vh)
+}
+
+
+body{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    min-height:100vh ;
+    background-color: gray;
+    background-image: radial-gradient(whitesmoke,gray);
+    display: flex;
+    flex-direction: column;
+}
+
+header,nav,main,footer{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+
+header,nav{
+    background-color: #000;
+    color:whitesmoke;
+}
+
+nav{
+    background-color: white;
+    border-radius: 2px solid gray;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow:  0px 5px 1px -5px var(--BACKGROUND-COLOR-Head);
+    
+}
+
+footer{
+    background-color: #2d2a2aef;
+    color: whitesmoke;
+}
+
+head{
+    top: 0;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: min(150px,20vp);
+    padding-top: 1rem;
+    padding-bottom:1rem ;
+
+}
+
+footer{
+    bottom: 0;
+}
+
+.squre{
+    background-color: papayawhip;
+    height: var(--SQUARE-SIZE);
+    width: var(--SQUARE-SIZE);
+    display: grid;
+    place-content: center;
+    margin: 0.5rem;
+    border: 0.2rem solid var(--BACKGROUND-COLOR-Head);
+    border-radius: 1rem;
+    box-shadow:  0px 0px 1px 0.3px var(--BACKGROUND-COLOR-Head);
+
+}
+
+
+/*Small Screen*/
+@media screen and (min-width: 576px) {
+
+    body{
+        background-color: green;
+        background-image: radial-gradient(whitesmoke,green);
+    }
+
+    nav{
+        display: none;
+    }
+    
+}
+
+/*Medium Screen*/
+
+@media screen  and (min-width:768px){
+
+    body{
+        background-color: gold;
+        background-image: radial-gradient(yellow,gold);
+    }
+    
+}
+
+/*Large Screen*/
+
+
+@media screen  and (min-width:992px){
+
+    body{
+        background-color: papayawhip;
+        background-image: radial-gradient(white,papayawhip);
+    }
+    
+}
+
+
+/*XL Screen*/
+
+
+@media screen  and (min-width:1200px){
+
+    body{
+        background-color: rebeccapurple;
+        background-image: radial-gradient(white,rebeccapurple);
+    }
+    
+}
+
+/*Mobile Device Landscape Screen*/
+
+@media screen  and (min-width:425px) and (min-aspect-ratio: 7/4) {
+
+    body{
+        background-color: dodgerblue;
+        background-image: radial-gradient(white,dodgerblue);
+    }
+
+    h1,h2{
+        font-size: 1.5rem;
+    }
+
+    nav{
+        display: none;
+    }
+    
+}
+

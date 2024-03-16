@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+    
+}
+
+.container{
+    border: 10px double red;
+    /* border-top: dotted yellow ;
+    border-right: dotted green ; */
+    background: papayawhip;
+    font-size: 1.5rem;
+    padding: 1em;
+    margin: 1em;
+    outline:10px solid  blue;
+    outline-offset: -20px;
+    
+}
+
+.image{
+    background: url(https://www.instantstories.com/uploads/stories/ajith-kumar/ajith-kumar-photoshoot-images-hd-wallpapers-1080p-hjde-lg.jpg?v=1569570369);
+
+}
