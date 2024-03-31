@@ -1,0 +1,44 @@
+Types of container class
+   i).  Fixed width container -> class = "containef"
+   ii). Full width container -> class = "container-fluid"
+
+Typography:
+   class="h1",class="h2 to h6" [we can use in p tage]
+   class="display-1 to display-6" [Fount Wight is lighter]
+
+   Color:[class]
+     <p class="text-muted">Text is muted</p>
+    <p class="text-primary">Text is primary</p>
+    <p class="text-info">Text is info</p>
+    <p class="text-warning">Text is warning</p>
+    <p class="text-danger">Text is danger</p>
+    <p class="text-secondary">Text is secondary</p>
+    <p class="text-white">Text is white</p>
+    <p class="text-dark">Text is dark</p>
+    <p class="text-light bg-dark">Text is light</p>
+
+
+Background colors[class]
+
+    <p class="bg-primary">Text is pimery</p>
+    <p class="bg-success">Text is sucess</p>
+    <p class="bg-danger">Text is danger</p>
+
+
+Row and Column Classes
+
+      Step1 : Make a Container class.
+      Step2 : Make a Row class i.e [class="row"]
+      Ster3 : Make a Column class i.e [class="col"]
+
+      Summary:
+         The above stape should be followed in Sequencemaner
+          Reasons:
+             Column can be used inside the row and the row can be used inside the container.
+             
+        Note:
+
+          Max of 12 Column can be used inside the one Row.
+          We may split the Column that is not a matter.
+
+          
